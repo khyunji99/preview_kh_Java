@@ -1,0 +1,31 @@
+package loopexample;
+
+public class NestedLoopForExample {
+
+	public static void main(String[] args) {
+
+		int dan;
+		int times;
+		
+		for(dan = 2; dan <= 9; dan++) {
+			
+			for(times = 1; times<=9; times++) {
+				System.out.println(dan + "X" + times + "=" + dan*times);
+			}
+			System.out.println();
+		}
+		
+		System.out.println("=================");
+		System.out.println();
+		
+		for(dan = 10; dan <= 13; dan++) {
+			for(times = 1; times<dan; times++) {
+				System.out.println(dan + "X" + times + "=" + dan*times);
+			}
+			System.out.println();
+		}
+		
+		
+	}
+
+}
